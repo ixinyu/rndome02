@@ -27,7 +27,7 @@ export class Index extends Component {
         }).then((res)=>{
           var data = this.state.list.concat(res.data.list) 
           this.state.hasNextPage = res.data.hasNextPage
-          console.log(data)
+          // console.log(data)
           // this.state.list = data
           
           this.setState({
