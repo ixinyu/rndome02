@@ -5,7 +5,6 @@ import {createStackNavigator} from '@react-navigation/stack';
 const Stack = createStackNavigator();
 
 // import Tabnav from './src/pages/navs/RootNav'
-import Login from './src/pages/Login'
 import StackNav from './src/pages/navs/stackNav'
 function App() {
   return (
